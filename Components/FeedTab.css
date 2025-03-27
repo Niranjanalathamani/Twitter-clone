@@ -1,0 +1,17 @@
+
+.feedtab {
+    width: 100%;
+    border-bottom: 2px solid var(--twitter-background); 
+    padding-bottom: 5px; 
+}
+
+.feedtab-text {
+    display: inline-block; 
+    font-weight: normal;
+    font-family: sans-serif;
+    color: aqua;
+    margin-left:200px;
+    margin-top:10px;
+    align-items:10px;
+    margin-bottom:10px;
+}

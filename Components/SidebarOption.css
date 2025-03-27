@@ -1,0 +1,52 @@
+.sidebarOption{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    gap:0px;
+    padding: 0.0;  
+    max-width:280px;
+    flex:1; 
+    transition: all 0.3s ease-in-out;
+
+}
+.sidebarOption:hover{
+    background-color: rgb(240, 235, 228);
+    border-radius:30px;
+    transition: color 100ms ease-out;
+}
+
+
+.custom-icon{
+    padding:10px;
+    font-size: larger;
+    font-weight: bolder;
+    gap:0px;
+}
+
+
+.sidebarOption--active.sidebar-text{
+     font-weight:bolder;
+     background-color: black;
+     color: white;
+    
+     
+}
+.btn{
+    background-color: black;
+    color:white;
+    border-radius: 30px;
+    width:150px;
+    height:50px;
+    font-weight: 900;
+    margin-top: 5px;
+    border: none;
+    border-style: none;
+}
+.btn:hover{
+    background-color: gray;
+    transition: 0.3 ease-out;
+    cursor: pointer;
+    border: none;
+    
+    
+}

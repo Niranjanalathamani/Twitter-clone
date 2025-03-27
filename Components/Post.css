@@ -1,0 +1,169 @@
+.post {
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    border-bottom: 1px solid rgb(245, 231, 231);
+    max-width: 600px; 
+    overflow-wrap: break-word; 
+}
+
+.post:hover {
+    background-color: rgb(244, 226, 226);
+    cursor: pointer;
+}
+
+.post_body {
+    flex: 1;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px; 
+    box-sizing: border-box;
+}
+
+.post_header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.post__headerText h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.post__headerDescription p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    max-width: 100%; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.post__username {
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+    margin-left: 5px;
+}
+
+.post_image {
+    max-width: 100%; 
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.post_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.post_headerSpecial {
+    color: aqua;
+}
+
+.post__timestamp {
+    color: gray;
+    font-weight: normal;
+}
+
+
+.like-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.like-icon {
+    font-size: 20px;
+    color: gray;
+    transition: color 0.3s ease-in-out;
+}
+
+
+.like-count {
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+}
+
+
+.like-button:hover .like-icon {
+    color: red;
+}
+
+
+.liked .like-icon {
+    color: red;
+}
+
+
+.liked .like-count {
+    color: red;
+}
+
+
+
+.retweet-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.retweet-icon {
+    color: gray;
+    font-size: 18px;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+.retweeted-icon {
+    color: green;
+    transform: scale(1.2);
+}
+
+
+.retweet-count {
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    display: inline-block;
+    transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.retweeted.retweet-count {
+    color:green
+}
+
+
+.fade-out {
+    opacity: 0;
+    transform:translateY(-5px);
+    
+}
+
+
+.fade-in {
+    opacity: 1;
+    
+    transform:translateY(0);
+}

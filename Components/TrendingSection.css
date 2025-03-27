@@ -1,0 +1,71 @@
+.trendingSection {
+    border: 1px solid #e1e8ed;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .trendingSection h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .Happening_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #e1e8ed;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Happening_header:hover {
+    background-color: #f5f8fa;
+  }
+  
+  .Happening_image {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .Happening_details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Happening_category {
+    font-size: 13px;
+    color: gray;
+  }
+  
+  .Happening_title {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .Happening_posts {
+    font-size: 13px;
+    color: gray;
+  }
+  
+  .trendingSection__showMore {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #1da1f2;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .trendingSection__showMore:hover {
+    background-color: #f5f8fa;
+  }
+  

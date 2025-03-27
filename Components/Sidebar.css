@@ -1,0 +1,84 @@
+.sidebar {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0px; 
+  margin-left:200px;
+  border-right:1px solid var(--twitter-background);
+  height:100vh;
+  flex:0,3;
+  padding-left: 20px;
+  padding-right: 20px;
+  width:280px;
+  position:fixed
+  
+}
+.sidebar-profile {
+  position: relative;
+  bottom: 0;
+  max-width:280px;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-top: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  justify-content: space-between;
+  border-radius: 10px
+  
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile-details {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.profile-username {
+  color: gray;
+  font-size: 14px;
+}
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  align-items: center;
+  width:250px;
+}
+.custom-icon {
+  font-size: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.active-icon {
+  color: black !important;
+  font-weight: bold;
+}
+.page-title {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
+}
+.active-text{
+  left:0;
+}
+
